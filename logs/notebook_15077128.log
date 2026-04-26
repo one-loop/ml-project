@@ -1,0 +1,261 @@
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/condabin/conda
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/conda
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/conda-env
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/activate
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/deactivate
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/profile.d/conda.sh
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/fish/conf.d/conda.fish
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/shell/condabin/Conda.psm1
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/shell/condabin/conda-hook.ps1
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/profile.d/conda.csh
+no change     /home/ss17886/.bashrc
+No action taken.
+Loading module 'miniconda/3-4.11.0'
+Installing missing package: nbconvert
+WARNING: Ignoring invalid distribution ~etuptools (/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages)
+WARNING: Ignoring invalid distribution ~etuptools (/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages)
+
+Collecting nbconvert
+  Using cached nbconvert-7.17.1-py3-none-any.whl.metadata (8.4 kB)
+Collecting beautifulsoup4 (from nbconvert)
+  Using cached beautifulsoup4-4.14.3-py3-none-any.whl.metadata (3.8 kB)
+Collecting bleach!=5.0.0 (from bleach[css]!=5.0.0->nbconvert)
+  Using cached bleach-6.3.0-py3-none-any.whl.metadata (31 kB)
+Collecting defusedxml (from nbconvert)
+  Using cached defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+Collecting jinja2>=3.0 (from nbconvert)
+  Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Collecting jupyter-core>=4.7 (from nbconvert)
+  Using cached jupyter_core-5.9.1-py3-none-any.whl.metadata (1.5 kB)
+Collecting jupyterlab-pygments (from nbconvert)
+  Using cached jupyterlab_pygments-0.3.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting markupsafe>=2.0 (from nbconvert)
+  Using cached markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Collecting mistune<4,>=2.0.3 (from nbconvert)
+  Using cached mistune-3.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting nbclient>=0.5.0 (from nbconvert)
+  Using cached nbclient-0.10.4-py3-none-any.whl.metadata (8.3 kB)
+Collecting nbformat>=5.7 (from nbconvert)
+  Using cached nbformat-5.10.4-py3-none-any.whl.metadata (3.6 kB)
+Requirement already satisfied: packaging in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from nbconvert) (26.0)
+Collecting pandocfilters>=1.4.1 (from nbconvert)
+  Using cached pandocfilters-1.5.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Collecting pygments>=2.4.1 (from nbconvert)
+  Using cached pygments-2.20.0-py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: traitlets>=5.1 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from nbconvert) (5.14.3)
+Requirement already satisfied: webencodings in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from bleach!=5.0.0->bleach[css]!=5.0.0->nbconvert) (0.5.1)
+Requirement already satisfied: tinycss2<1.5,>=1.1.0 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from bleach[css]!=5.0.0->nbconvert) (1.4.0)
+Collecting platformdirs>=2.5 (from jupyter-core>=4.7->nbconvert)
+  Using cached platformdirs-4.9.6-py3-none-any.whl.metadata (4.7 kB)
+Collecting jupyter-client>=6.1.12 (from nbclient>=0.5.0->nbconvert)
+  Using cached jupyter_client-8.8.0-py3-none-any.whl.metadata (8.4 kB)
+Collecting python-dateutil>=2.8.2 (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert)
+  Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+Collecting pyzmq>=25.0 (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert)
+  Using cached pyzmq-27.1.0-cp311-cp311-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl.metadata (6.0 kB)
+Requirement already satisfied: tornado>=6.4.1 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (6.5.5)
+Requirement already satisfied: fastjsonschema>=2.15 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from nbformat>=5.7->nbconvert) (2.21.2)
+Collecting jsonschema>=2.6 (from nbformat>=5.7->nbconvert)
+  Using cached jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=2.6->nbformat>=5.7->nbconvert)
+  Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=2.6->nbformat>=5.7->nbconvert)
+  Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=2.6->nbformat>=5.7->nbconvert)
+  Using cached referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.25.0 (from jsonschema>=2.6->nbformat>=5.7->nbconvert)
+  Using cached rpds_py-0.30.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+Requirement already satisfied: six>=1.5 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (1.17.0)
+Requirement already satisfied: typing-extensions>=4.4.0 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from referencing>=0.28.4->jsonschema>=2.6->nbformat>=5.7->nbconvert) (4.15.0)
+Requirement already satisfied: soupsieve>=1.6.1 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from beautifulsoup4->nbconvert) (2.8.3)
+Using cached nbconvert-7.17.1-py3-none-any.whl (261 kB)
+Using cached mistune-3.2.0-py3-none-any.whl (53 kB)
+Using cached bleach-6.3.0-py3-none-any.whl (164 kB)
+Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+Using cached jupyter_core-5.9.1-py3-none-any.whl (29 kB)
+Using cached markupsafe-3.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (22 kB)
+Using cached nbclient-0.10.4-py3-none-any.whl (25 kB)
+Using cached jupyter_client-8.8.0-py3-none-any.whl (107 kB)
+Using cached nbformat-5.10.4-py3-none-any.whl (78 kB)
+Using cached jsonschema-4.26.0-py3-none-any.whl (90 kB)
+Using cached attrs-26.1.0-py3-none-any.whl (67 kB)
+Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Using cached pandocfilters-1.5.1-py2.py3-none-any.whl (8.7 kB)
+Using cached platformdirs-4.9.6-py3-none-any.whl (21 kB)
+Using cached pygments-2.20.0-py3-none-any.whl (1.2 MB)
+Using cached python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+Using cached pyzmq-27.1.0-cp311-cp311-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (857 kB)
+Using cached referencing-0.37.0-py3-none-any.whl (26 kB)
+Using cached rpds_py-0.30.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (390 kB)
+Using cached beautifulsoup4-4.14.3-py3-none-any.whl (107 kB)
+Using cached defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Using cached jupyterlab_pygments-0.3.0-py3-none-any.whl (15 kB)
+Installing collected packages: rpds-py, pyzmq, python-dateutil, pygments, platformdirs, pandocfilters, mistune, markupsafe, jupyterlab-pygments, defusedxml, bleach, beautifulsoup4, attrs, referencing, jupyter-core, jinja2, jupyter-client, jsonschema-specifications, jsonschema, nbformat, nbclient, nbconvert
+
+Successfully installed attrs-26.1.0 beautifulsoup4-4.14.3 bleach-6.3.0 defusedxml-0.7.1 jinja2-3.1.6 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 jupyter-client-8.8.0 jupyter-core-5.9.1 jupyterlab-pygments-0.3.0 markupsafe-3.0.3 mistune-3.2.0 nbclient-0.10.4 nbconvert-7.17.1 nbformat-5.10.4 pandocfilters-1.5.1 platformdirs-4.9.6 pygments-2.20.0 python-dateutil-2.9.0.post0 pyzmq-27.1.0 referencing-0.37.0 rpds-py-0.30.0
+
+Installing missing package: torch
+Collecting torch
+  Using cached torch-2.11.0-cp311-cp311-manylinux_2_28_x86_64.whl.metadata (29 kB)
+Collecting filelock (from torch)
+  Using cached filelock-3.29.0-py3-none-any.whl.metadata (2.0 kB)
+Requirement already satisfied: typing-extensions>=4.10.0 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from torch) (4.15.0)
+Requirement already satisfied: setuptools<82 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from torch) (81.0.0)
+Requirement already satisfied: sympy>=1.13.3 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from torch) (1.14.0)
+Collecting networkx>=2.5.1 (from torch)
+  Using cached networkx-3.6.1-py3-none-any.whl.metadata (6.8 kB)
+Requirement already satisfied: jinja2 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from torch) (3.1.6)
+Collecting fsspec>=0.8.5 (from torch)
+  Using cached fsspec-2026.3.0-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: cuda-toolkit==13.0.2 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch) (13.0.2)
+Collecting cuda-bindings<14,>=13.0.3 (from torch)
+  Using cached cuda_bindings-13.2.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (2.3 kB)
+Collecting nvidia-cudnn-cu13==9.19.0.56 (from torch)
+  Using cached nvidia_cudnn_cu13-9.19.0.56-py3-none-manylinux_2_27_x86_64.whl.metadata (1.9 kB)
+Requirement already satisfied: nvidia-cusparselt-cu13==0.8.0 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from torch) (0.8.0)
+Collecting nvidia-nccl-cu13==2.28.9 (from torch)
+  Using cached nvidia_nccl_cu13-2.28.9-py3-none-manylinux_2_18_x86_64.whl.metadata (2.0 kB)
+Collecting nvidia-nvshmem-cu13==3.4.5 (from torch)
+  Using cached nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.1 kB)
+Requirement already satisfied: triton==3.6.0 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from torch) (3.6.0)
+Collecting nvidia-cublas==13.1.0.3.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch)
+  Using cached nvidia_cublas-13.1.0.3-py3-none-manylinux_2_27_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cuda-runtime==13.0.96.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch)
+  Using cached nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cufft==12.0.0.61.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch)
+  Using cached nvidia_cufft-12.0.0.61-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-cufile==1.15.1.6.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch)
+  Using cached nvidia_cufile-1.15.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cuda-cupti==13.0.85.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch)
+  Using cached nvidia_cuda_cupti-13.0.85-py3-none-manylinux_2_25_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-curand==10.4.0.35.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch)
+  Using cached nvidia_curand-10.4.0.35-py3-none-manylinux_2_27_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cusolver==12.0.4.66.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch)
+  Using cached nvidia_cusolver-12.0.4.66-py3-none-manylinux_2_27_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-cusparse==12.6.3.3.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch)
+  Using cached nvidia_cusparse-12.6.3.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (1.8 kB)
+Collecting nvidia-nvjitlink==13.0.88.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch)
+  Using cached nvidia_nvjitlink-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl.metadata (1.7 kB)
+Collecting nvidia-cuda-nvrtc==13.0.88.* (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch)
+  Using cached nvidia_cuda_nvrtc-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl.metadata (1.7 kB)
+Requirement already satisfied: nvidia-nvtx==13.0.85.* in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,curand,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.0.2; platform_system == "Linux"->torch) (13.0.85)
+Collecting cuda-pathfinder~=1.1 (from cuda-bindings<14,>=13.0.3->torch)
+  Using cached cuda_pathfinder-1.5.3-py3-none-any.whl.metadata (1.9 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from sympy>=1.13.3->torch) (1.3.0)
+Requirement already satisfied: MarkupSafe>=2.0 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from jinja2->torch) (3.0.3)
+Using cached torch-2.11.0-cp311-cp311-manylinux_2_28_x86_64.whl (530.6 MB)
+Using cached nvidia_cudnn_cu13-9.19.0.56-py3-none-manylinux_2_27_x86_64.whl (366.1 MB)
+Using cached nvidia_nccl_cu13-2.28.9-py3-none-manylinux_2_18_x86_64.whl (196.5 MB)
+Using cached nvidia_nvshmem_cu13-3.4.5-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (60.4 MB)
+Using cached cuda_bindings-13.2.0-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (6.3 MB)
+Using cached cuda_pathfinder-1.5.3-py3-none-any.whl (49 kB)
+Using cached nvidia_cublas-13.1.0.3-py3-none-manylinux_2_27_x86_64.whl (423.1 MB)
+Using cached nvidia_cuda_cupti-13.0.85-py3-none-manylinux_2_25_x86_64.whl (10.7 MB)
+Using cached nvidia_cuda_nvrtc-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (90.2 MB)
+Using cached nvidia_cuda_runtime-13.0.96-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.2 MB)
+Using cached nvidia_cufft-12.0.0.61-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (214.1 MB)
+Using cached nvidia_cufile-1.15.1.6-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (1.2 MB)
+Using cached nvidia_curand-10.4.0.35-py3-none-manylinux_2_27_x86_64.whl (59.5 MB)
+Using cached nvidia_cusolver-12.0.4.66-py3-none-manylinux_2_27_x86_64.whl (200.9 MB)
+Using cached nvidia_cusparse-12.6.3.3-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (145.9 MB)
+Using cached nvidia_nvjitlink-13.0.88-py3-none-manylinux2010_x86_64.manylinux_2_12_x86_64.whl (40.7 MB)
+Using cached fsspec-2026.3.0-py3-none-any.whl (202 kB)
+Using cached networkx-3.6.1-py3-none-any.whl (2.1 MB)
+Using cached filelock-3.29.0-py3-none-any.whl (39 kB)
+Installing collected packages: nvidia-nvshmem-cu13, nvidia-nvjitlink, nvidia-nccl-cu13, nvidia-curand, nvidia-cufile, nvidia-cuda-runtime, nvidia-cuda-nvrtc, nvidia-cuda-cupti, nvidia-cublas, networkx, fsspec, filelock, cuda-pathfinder, nvidia-cusparse, nvidia-cufft, nvidia-cudnn-cu13, cuda-bindings, nvidia-cusolver, torch
+
+Successfully installed cuda-bindings-13.2.0 cuda-pathfinder-1.5.3 filelock-3.29.0 fsspec-2026.3.0 networkx-3.6.1 nvidia-cublas-13.1.0.3 nvidia-cuda-cupti-13.0.85 nvidia-cuda-nvrtc-13.0.88 nvidia-cuda-runtime-13.0.96 nvidia-cudnn-cu13-9.19.0.56 nvidia-cufft-12.0.0.61 nvidia-cufile-1.15.1.6 nvidia-curand-10.4.0.35 nvidia-cusolver-12.0.4.66 nvidia-cusparse-12.6.3.3 nvidia-nccl-cu13-2.28.9 nvidia-nvjitlink-13.0.88 nvidia-nvshmem-cu13-3.4.5 torch-2.11.0
+
+[NbConvertApp] Converting notebook Assignment 4 Machine Learning.ipynb to notebook
+[NbConvertApp] ERROR | No such kernel named python3
+Traceback (most recent call last):
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_client/manager.py", line 88, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_client/manager.py", line 441, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_client/manager.py", line 403, in _async_pre_start_kernel
+    self.kernel_spec,
+    ^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_client/manager.py", line 196, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_client/kernelspec.py", line 287, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named python3
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/__main__.py", line 5, in <module>
+    main()
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_core/application.py", line 284, in launch_instance
+    super().launch_instance(argv=argv, **kwargs)
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/traitlets/config/application.py", line 1075, in launch_instance
+    app.start()
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/nbconvertapp.py", line 420, in start
+    self.convert_notebooks()
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/nbconvertapp.py", line 597, in convert_notebooks
+    self.convert_single_notebook(notebook_filename)
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/nbconvertapp.py", line 563, in convert_single_notebook
+    output, resources = self.export_single_notebook(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/nbconvertapp.py", line 487, in export_single_notebook
+    output, resources = self.exporter.from_filename(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/exporters/exporter.py", line 201, in from_filename
+    return self.from_file(f, resources=resources, **kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/exporters/exporter.py", line 220, in from_file
+    return self.from_notebook_node(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/exporters/notebook.py", line 36, in from_notebook_node
+    nb_copy, resources = super().from_notebook_node(nb, resources, **kw)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/exporters/exporter.py", line 154, in from_notebook_node
+    nb_copy, resources = self._preprocess(nb_copy, resources)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/exporters/exporter.py", line 353, in _preprocess
+    nbc, resc = preprocessor(nbc, resc)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/preprocessors/base.py", line 48, in __call__
+    return self.preprocess(nb, resources)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbconvert/preprocessors/execute.py", line 97, in preprocess
+    with self.setup_kernel():
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/contextlib.py", line 137, in __enter__
+    return next(self.gen)
+           ^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbclient/client.py", line 600, in setup_kernel
+    self.start_new_kernel(**kwargs)
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/asyncio/base_events.py", line 654, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/nbclient/client.py", line 550, in async_start_new_kernel
+    await ensure_async(self.km.start_kernel(extra_arguments=self.extra_arguments, **kwargs))
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 214, in ensure_async
+    result = await obj
+             ^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_client/manager.py", line 97, in wrapper
+    raise e
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_client/manager.py", line 88, in wrapper
+    out = await method(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_client/manager.py", line 441, in _async_start_kernel
+    kernel_cmd, kw = await self._async_pre_start_kernel(**kw)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_client/manager.py", line 403, in _async_pre_start_kernel
+    self.kernel_spec,
+    ^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_client/manager.py", line 196, in kernel_spec
+    self._kernel_spec = self.kernel_spec_manager.get_kernel_spec(self.kernel_name)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages/jupyter_client/kernelspec.py", line 287, in get_kernel_spec
+    raise NoSuchKernel(kernel_name)
+jupyter_client.kernelspec.NoSuchKernel: No such kernel named python3
+
+ERROR conda.cli.main_run:execute(124): `conda run python -m nbconvert --to notebook --execute Assignment 4 Machine Learning.ipynb --output executed_Assignment 4 Machine Learning.ipynb` failed. (See above for error)

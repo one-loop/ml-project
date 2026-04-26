@@ -1,0 +1,113 @@
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/condabin/conda
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/conda
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/conda-env
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/activate
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/deactivate
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/profile.d/conda.sh
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/fish/conf.d/conda.fish
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/shell/condabin/Conda.psm1
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/shell/condabin/conda-hook.ps1
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/profile.d/conda.csh
+no change     /home/ss17886/.bashrc
+No action taken.
+Unloading module 'miniconda/3-4.11.0'
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/condabin/conda
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/conda
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/conda-env
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/activate
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/deactivate
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/profile.d/conda.sh
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/fish/conf.d/conda.fish
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/shell/condabin/Conda.psm1
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/shell/condabin/conda-hook.ps1
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/profile.d/conda.csh
+no change     /home/ss17886/.bashrc
+No action taken.
+Loading module 'miniconda/3-4.11.0'
+Installing missing package: nbconvert
+Defaulting to user installation because normal site-packages is not writeable
+Collecting nbconvert
+  Downloading nbconvert-7.17.1-py3-none-any.whl.metadata (8.4 kB)
+Collecting beautifulsoup4 (from nbconvert)
+  Downloading beautifulsoup4-4.14.3-py3-none-any.whl.metadata (3.8 kB)
+Collecting bleach!=5.0.0 (from bleach[css]!=5.0.0->nbconvert)
+  Downloading bleach-6.2.0-py3-none-any.whl.metadata (30 kB)
+Collecting defusedxml (from nbconvert)
+  Downloading defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+Requirement already satisfied: importlib-metadata>=3.6 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from nbconvert) (7.1.0)
+Requirement already satisfied: jinja2>=3.0 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from nbconvert) (3.1.2)
+Requirement already satisfied: jupyter-core>=4.7 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from nbconvert) (5.7.2)
+Collecting jupyterlab-pygments (from nbconvert)
+  Downloading jupyterlab_pygments-0.3.0-py3-none-any.whl.metadata (4.4 kB)
+Requirement already satisfied: markupsafe>=2.0 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from nbconvert) (2.1.3)
+Collecting mistune<4,>=2.0.3 (from nbconvert)
+  Downloading mistune-3.2.0-py3-none-any.whl.metadata (1.9 kB)
+Collecting nbclient>=0.5.0 (from nbconvert)
+  Downloading nbclient-0.10.2-py3-none-any.whl.metadata (8.3 kB)
+Collecting nbformat>=5.7 (from nbconvert)
+  Downloading nbformat-5.10.4-py3-none-any.whl.metadata (3.6 kB)
+Requirement already satisfied: packaging in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from nbconvert) (24.0)
+Collecting pandocfilters>=1.4.1 (from nbconvert)
+  Downloading pandocfilters-1.5.1-py2.py3-none-any.whl.metadata (9.0 kB)
+Requirement already satisfied: pygments>=2.4.1 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from nbconvert) (2.17.2)
+Requirement already satisfied: traitlets>=5.1 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from nbconvert) (5.14.2)
+Collecting webencodings (from bleach!=5.0.0->bleach[css]!=5.0.0->nbconvert)
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl.metadata (2.1 kB)
+Collecting tinycss2<1.5,>=1.1.0 (from bleach[css]!=5.0.0->nbconvert)
+  Downloading tinycss2-1.4.0-py3-none-any.whl.metadata (3.0 kB)
+Requirement already satisfied: zipp>=0.5 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from importlib-metadata>=3.6->nbconvert) (3.17.0)
+Requirement already satisfied: platformdirs>=2.5 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from jupyter-core>=4.7->nbconvert) (4.2.0)
+Requirement already satisfied: typing-extensions in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from mistune<4,>=2.0.3->nbconvert) (4.11.0)
+Requirement already satisfied: jupyter-client>=6.1.12 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from nbclient>=0.5.0->nbconvert) (8.6.1)
+Collecting fastjsonschema>=2.15 (from nbformat>=5.7->nbconvert)
+  Downloading fastjsonschema-2.21.2-py3-none-any.whl.metadata (2.3 kB)
+Collecting jsonschema>=2.6 (from nbformat>=5.7->nbconvert)
+  Downloading jsonschema-4.25.1-py3-none-any.whl.metadata (7.6 kB)
+Collecting soupsieve>=1.6.1 (from beautifulsoup4->nbconvert)
+  Downloading soupsieve-2.8.3-py3-none-any.whl.metadata (4.6 kB)
+Collecting attrs>=22.2.0 (from jsonschema>=2.6->nbformat>=5.7->nbconvert)
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=2.6->nbformat>=5.7->nbconvert)
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting referencing>=0.28.4 (from jsonschema>=2.6->nbformat>=5.7->nbconvert)
+  Downloading referencing-0.36.2-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py>=0.7.1 (from jsonschema>=2.6->nbformat>=5.7->nbconvert)
+  Downloading rpds_py-0.27.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.2 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (2.9.0)
+Requirement already satisfied: pyzmq>=23.0 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (25.1.2)
+Requirement already satisfied: tornado>=6.2 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (6.4)
+Requirement already satisfied: six>=1.5 in /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages (from python-dateutil>=2.8.2->jupyter-client>=6.1.12->nbclient>=0.5.0->nbconvert) (1.16.0)
+Downloading nbconvert-7.17.1-py3-none-any.whl (261 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 261.9/261.9 kB 3.4 MB/s eta 0:00:00
+Downloading bleach-6.2.0-py3-none-any.whl (163 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 163.4/163.4 kB 1.7 MB/s eta 0:00:00
+Downloading mistune-3.2.0-py3-none-any.whl (53 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.6/53.6 kB 317.8 kB/s eta 0:00:00
+Downloading nbclient-0.10.2-py3-none-any.whl (25 kB)
+Downloading nbformat-5.10.4-py3-none-any.whl (78 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.5/78.5 kB 1.0 MB/s eta 0:00:00
+Downloading pandocfilters-1.5.1-py2.py3-none-any.whl (8.7 kB)
+Downloading beautifulsoup4-4.14.3-py3-none-any.whl (107 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107.7/107.7 kB 1.7 MB/s eta 0:00:00
+Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+Downloading jupyterlab_pygments-0.3.0-py3-none-any.whl (15 kB)
+Downloading fastjsonschema-2.21.2-py3-none-any.whl (24 kB)
+Downloading jsonschema-4.25.1-py3-none-any.whl (90 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.0/90.0 kB 1.0 MB/s eta 0:00:00
+Downloading soupsieve-2.8.3-py3-none-any.whl (37 kB)
+Downloading tinycss2-1.4.0-py3-none-any.whl (26 kB)
+Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.5/67.5 kB 1.7 MB/s eta 0:00:00
+Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Downloading referencing-0.36.2-py3-none-any.whl (26 kB)
+Downloading rpds_py-0.27.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (384 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 384.4/384.4 kB 5.5 MB/s eta 0:00:00
+WARNING: Error parsing requirements for numpy: [Errno 2] No such file or directory: '/share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages/numpy-1.25.2.dist-info/METADATA'
+Installing collected packages: webencodings, fastjsonschema, tinycss2, soupsieve, rpds-py, pandocfilters, mistune, jupyterlab-pygments, defusedxml, bleach, attrs, referencing, beautifulsoup4, jsonschema-specifications, jsonschema, nbformat, nbclient, nbconvert
+Successfully installed attrs-26.1.0 beautifulsoup4-4.14.3 bleach-6.2.0 defusedxml-0.7.1 fastjsonschema-2.21.2 jsonschema-4.25.1 jsonschema-specifications-2025.9.1 jupyterlab-pygments-0.3.0 mistune-3.2.0 nbclient-0.10.2 nbconvert-7.17.1 nbformat-5.10.4 pandocfilters-1.5.1 referencing-0.36.2 rpds-py-0.27.1 soupsieve-2.8.3 tinycss2-1.4.0 webencodings-0.5.1
+[NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+[NbConvertApp] Converting notebook my_notebook.ipynb to notebook
+[NbConvertApp] Writing 8155 bytes to executed_my_notebook.ipynb

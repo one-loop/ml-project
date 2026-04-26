@@ -1,0 +1,107 @@
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/condabin/conda
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/conda
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/conda-env
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/activate
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/deactivate
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/profile.d/conda.sh
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/fish/conf.d/conda.fish
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/shell/condabin/Conda.psm1
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/shell/condabin/conda-hook.ps1
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/profile.d/conda.csh
+no change     /home/ss17886/.bashrc
+No action taken.
+Unloading module 'miniconda/3-4.11.0'
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/condabin/conda
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/conda
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/conda-env
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/activate
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/bin/deactivate
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/profile.d/conda.sh
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/fish/conf.d/conda.fish
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/shell/condabin/Conda.psm1
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/shell/condabin/conda-hook.ps1
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/lib/python3.9/site-packages/xontrib/conda.xsh
+no change     /share/apps/NYUAD5/miniconda/3-4.11.0/etc/profile.d/conda.csh
+no change     /home/ss17886/.bashrc
+No action taken.
+Loading module 'miniconda/3-4.11.0'
+Installing missing package: ipykernel
+Collecting ipykernel
+  Downloading ipykernel-7.2.0-py3-none-any.whl.metadata (4.5 kB)
+Collecting comm>=0.1.1 (from ipykernel)
+  Downloading comm-0.2.3-py3-none-any.whl.metadata (3.7 kB)
+Collecting debugpy>=1.6.5 (from ipykernel)
+  Downloading debugpy-1.8.20-py2.py3-none-any.whl.metadata (1.5 kB)
+Collecting ipython>=7.23.1 (from ipykernel)
+  Downloading ipython-9.13.0-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: jupyter-client>=8.8.0 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from ipykernel) (8.8.0)
+Requirement already satisfied: jupyter-core!=6.0.*,>=5.1 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from ipykernel) (5.9.1)
+Collecting matplotlib-inline>=0.1 (from ipykernel)
+  Downloading matplotlib_inline-0.2.1-py3-none-any.whl.metadata (2.3 kB)
+Collecting nest-asyncio>=1.4 (from ipykernel)
+  Downloading nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+Requirement already satisfied: packaging>=22 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from ipykernel) (26.0)
+Collecting psutil>=5.7 (from ipykernel)
+  Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+Requirement already satisfied: pyzmq>=25 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from ipykernel) (27.1.0)
+Requirement already satisfied: tornado>=6.4.1 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from ipykernel) (6.5.5)
+Requirement already satisfied: traitlets>=5.4.0 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from ipykernel) (5.14.3)
+Collecting decorator>=5.1.0 (from ipython>=7.23.1->ipykernel)
+  Downloading decorator-5.2.1-py3-none-any.whl.metadata (3.9 kB)
+Collecting ipython-pygments-lexers>=1.0.0 (from ipython>=7.23.1->ipykernel)
+  Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl.metadata (1.1 kB)
+Collecting jedi>=0.18.2 (from ipython>=7.23.1->ipykernel)
+  Downloading jedi-0.19.2-py2.py3-none-any.whl.metadata (22 kB)
+Collecting pexpect>4.6 (from ipython>=7.23.1->ipykernel)
+  Downloading pexpect-4.9.0-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting prompt_toolkit<3.1.0,>=3.0.41 (from ipython>=7.23.1->ipykernel)
+  Downloading prompt_toolkit-3.0.52-py3-none-any.whl.metadata (6.4 kB)
+Requirement already satisfied: pygments>=2.14.0 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from ipython>=7.23.1->ipykernel) (2.20.0)
+Collecting stack_data>=0.6.0 (from ipython>=7.23.1->ipykernel)
+  Downloading stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+Requirement already satisfied: typing_extensions>=4.6 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from ipython>=7.23.1->ipykernel) (4.15.0)
+Collecting wcwidth (from prompt_toolkit<3.1.0,>=3.0.41->ipython>=7.23.1->ipykernel)
+  Downloading wcwidth-0.6.0-py3-none-any.whl.metadata (30 kB)
+Collecting parso<0.9.0,>=0.8.4 (from jedi>=0.18.2->ipython>=7.23.1->ipykernel)
+  Downloading parso-0.8.6-py2.py3-none-any.whl.metadata (8.4 kB)
+Requirement already satisfied: python-dateutil>=2.8.2 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from jupyter-client>=8.8.0->ipykernel) (2.9.0.post0)
+Requirement already satisfied: platformdirs>=2.5 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from jupyter-core!=6.0.*,>=5.1->ipykernel) (4.9.6)
+Collecting ptyprocess>=0.5 (from pexpect>4.6->ipython>=7.23.1->ipykernel)
+  Downloading ptyprocess-0.7.0-py2.py3-none-any.whl.metadata (1.3 kB)
+Requirement already satisfied: six>=1.5 in /home/ss17886/.conda/envs/notebook-env/lib/python3.11/site-packages (from python-dateutil>=2.8.2->jupyter-client>=8.8.0->ipykernel) (1.17.0)
+Collecting executing>=1.2.0 (from stack_data>=0.6.0->ipython>=7.23.1->ipykernel)
+  Downloading executing-2.2.1-py2.py3-none-any.whl.metadata (8.9 kB)
+Collecting asttokens>=2.1.0 (from stack_data>=0.6.0->ipython>=7.23.1->ipykernel)
+  Downloading asttokens-3.0.1-py3-none-any.whl.metadata (4.9 kB)
+Collecting pure-eval (from stack_data>=0.6.0->ipython>=7.23.1->ipykernel)
+  Downloading pure_eval-0.2.3-py3-none-any.whl.metadata (6.3 kB)
+Downloading ipykernel-7.2.0-py3-none-any.whl (118 kB)
+Downloading comm-0.2.3-py3-none-any.whl (7.3 kB)
+Downloading debugpy-1.8.20-py2.py3-none-any.whl (5.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 40.6 MB/s  0:00:00
+Downloading ipython-9.13.0-py3-none-any.whl (627 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 627.3/627.3 kB 4.4 MB/s  0:00:00
+Downloading prompt_toolkit-3.0.52-py3-none-any.whl (391 kB)
+Downloading decorator-5.2.1-py3-none-any.whl (9.2 kB)
+Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl (8.1 kB)
+Downloading jedi-0.19.2-py2.py3-none-any.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 23.6 MB/s  0:00:00
+Downloading parso-0.8.6-py2.py3-none-any.whl (106 kB)
+Downloading matplotlib_inline-0.2.1-py3-none-any.whl (9.5 kB)
+Downloading nest_asyncio-1.6.0-py3-none-any.whl (5.2 kB)
+Downloading pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Downloading stack_data-0.6.3-py3-none-any.whl (24 kB)
+Downloading asttokens-3.0.1-py3-none-any.whl (27 kB)
+Downloading executing-2.2.1-py2.py3-none-any.whl (28 kB)
+Downloading pure_eval-0.2.3-py3-none-any.whl (11 kB)
+Downloading wcwidth-0.6.0-py3-none-any.whl (94 kB)
+Installing collected packages: pure-eval, ptyprocess, wcwidth, psutil, pexpect, parso, nest-asyncio, matplotlib-inline, ipython-pygments-lexers, executing, decorator, debugpy, comm, asttokens, stack_data, prompt_toolkit, jedi, ipython, ipykernel
+
+Successfully installed asttokens-3.0.1 comm-0.2.3 debugpy-1.8.20 decorator-5.2.1 executing-2.2.1 ipykernel-7.2.0 ipython-9.13.0 ipython-pygments-lexers-1.1.1 jedi-0.19.2 matplotlib-inline-0.2.1 nest-asyncio-1.6.0 parso-0.8.6 pexpect-4.9.0 prompt_toolkit-3.0.52 psutil-7.2.2 ptyprocess-0.7.0 pure-eval-0.2.3 stack_data-0.6.3 wcwidth-0.6.0
+
+[NbConvertApp] Converting notebook Assignment 4 Machine Learning.ipynb to notebook
+[NbConvertApp] Writing 86867 bytes to executed_Assignment 4 Machine Learning.ipynb
+
